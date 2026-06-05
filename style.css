@@ -340,3 +340,62 @@ button{
   .radio,.check{font-size:23px!important}
   .final h2{font-size:44px}
 }
+/* Компактная анкета */
+.rsvp{
+  padding:55px 22px 60px;
+}
+
+.rsvp h2{
+  font-size:38px;
+  margin-bottom:25px;
+}
+
+.rsvp h2 span{
+  font-size:34px;
+}
+
+.rsvp-intro{
+  font-size:18px;
+  line-height:1.35;
+  margin-bottom:38px;
+}
+
+form label,
+form h3{
+  font-size:20px;
+  margin:22px 0 10px;
+}
+
+input[type=text]{
+  font-size:18px;
+  padding:10px 0;
+}
+
+.radio,
+.check{
+  font-size:20px !important;
+  gap:14px;
+  margin:14px 0 !important;
+}
+
+.radio span{
+  width:34px;
+  height:34px;
+  border:4px solid var(--soft);
+}
+
+.check span{
+  width:34px;
+  height:34px;
+  border:4px solid var(--soft);
+}
+
+button{
+  margin-top:32px;
+  padding:14px 20px;
+  font-size:20px;
+}
+
+#formResult{
+  font-size:18px;
+}
